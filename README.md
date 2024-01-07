@@ -1,4 +1,4 @@
-# TTVAE: Transformer-based Generative Modelling For Tabular Data Generation
+# TTVAE: Transformer-based Generative Modeling for Tabular Data Generation
 
 ## A detailed demo can be found in Demo_TTVAE.ipynb.
 
@@ -63,7 +63,7 @@ This project is licensed under the Apache-2.0 License.
 We appreciate your citations if you find this repository useful to your research!
 ```
 @inproceedings{wang2024ttvae,
-  title={TTVAE: Transformer-based Generative Modelling For Tabular Data Generation},
+  title={TTVAE: Transformer-based Generative Modeling for Tabular Data Generation},
   author={Alex X. Wang and Binh P. Nguyen},
   booktitle={IJCAI},
   year={2024},
