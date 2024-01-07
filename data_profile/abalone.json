@@ -1,0 +1,14 @@
+{
+    "name": "ablone",
+    "task_type": "regression",
+    "header": 0,
+    "column_names": [
+      "sex","length","diameter","height","wholeweight","shuckedweight","visceraweight","shellweight","rings"
+    ],
+    "num_col_idx": [1,2,3,4,5,6,7],
+    "cat_col_idx": [0],
+    "target_col_idx": [8],
+    "file_type": "csv",
+    "test_path": null,
+    "data_path": "data/abalone/abalone.data"
+}

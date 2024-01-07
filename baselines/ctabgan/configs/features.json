@@ -1,0 +1,17 @@
+{
+    "adult": {
+        "categorical_columns": ["workclass", "education", "marital.status", "occupation", 
+		"relationship", "race", "sex", "native.country", "income"],
+        "mixed_columns": {"capital.gain": [0.0], "capital.loss": [0.0]},
+        "integer_columns": ["age", "education.num", "fnlwgt", "hours.per.week"],
+        "general_columns": [],
+        "problem_type": {"Classification": "income"}
+    },
+    "abalone": {
+        "categorical_columns": ["sex"],
+        "mixed_columns": {},
+        "integer_columns": ["rings"],
+        "general_columns": [],
+        "problem_type": {"Regression": "rings"}
+    }
+}
