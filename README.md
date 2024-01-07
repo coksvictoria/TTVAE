@@ -67,6 +67,7 @@ We appreciate your citations if you find this repository useful to your research
   author={Alex X. Wang and Binh P. Nguyen},
   booktitle={IJCAI},
   year={2024},
-  organization={International Joint Conferences on Artificial Intelligence}
+  organization={International Joint Conferences on Artificial Intelligence},
+  note={submitted}
 }
 ```
