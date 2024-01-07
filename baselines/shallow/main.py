@@ -91,13 +91,13 @@ def train_smote(args):
 
     balancer_names=[
         "SMOTE",
-        # "SMOTENC",
+        "SMOTENC",
         "ADASYN",
         "SMOTETomek"
         ]
     balancers = [
                 SMOTE(sampling_strategy=ratio,random_state=1),
-                # SMOTENC(sampling_strategy=ratio,random_state=1, categorical_features=c_col_idx),
+                SMOTENC(sampling_strategy=ratio,random_state=1, categorical_features=c_col_idx),
                 ADASYN(sampling_strategy=ratio,random_state=1),
                 SMOTETomek(smote=SMOTE(sampling_strategy=ratio,random_state=1)),
                 ]
