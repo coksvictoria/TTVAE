@@ -31,7 +31,7 @@ python s2_process_dataset.py
 
 ## Training Models
 
-For non deep models, including SMOTE and its variants, Synthpop, Copula and traditional deep generative models, including CTGAN, TVAE and CopulaGan, use the following code
+For non-deep models, including SMOTE and its variants, Synthpop, Copula and traditional deep generative models, including CTGAN, TVAE and CopulaGan, use the following code
 
 ```
 python main.py --dataname [NAME_OF_DATASET] --method [NAME_OF_METHODS] --mode train
@@ -62,12 +62,11 @@ This project is licensed under the Apache-2.0 License.
 ## Reference
 We appreciate your citations if you find this repository useful to your research!
 ```
-@inproceedings{wang2024ttvae,
+@article{wang2025ttvae,
   title={TTVAE: Transformer-based Generative Modeling for Tabular Data Generation},
   author={Alex X. Wang and Binh P. Nguyen},
-  booktitle={IJCAI},
-  year={2024},
-  organization={International Joint Conferences on Artificial Intelligence},
-  note={submitted}
+  journal={Artificial Intelligence},
+  year={2025},
+  publisher={Elsevier}
 }
 ```
